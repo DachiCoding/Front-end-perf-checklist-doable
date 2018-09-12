@@ -1,4 +1,4 @@
-# 前端性能检查清单actionable version
+# 前端性能检查清单doable version
 
 ## 参考
 + https://github.com/thedaviddias/Front-End-Performance-Checklist
