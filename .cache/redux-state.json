@@ -1,23 +1,13 @@
 {
   "nodes": {
     "SitePage /dev-404-page/": {
-      "layout": "index",
-      "jsonName": "dev-404-page.json",
-      "internalComponentName": "ComponentDev404Page",
       "path": "/dev-404-page/",
-      "component": "/Users/xudachi/Documents/workspace/projects/front-end-perf-checklist/.cache/dev-404-page.js",
-      "componentChunkName": "component---cache-dev-404-page-js",
-      "context": {},
-      "pluginCreator___NODE": "Plugin dev-404-page",
-      "pluginCreatorId": "Plugin dev-404-page",
-      "componentPath": "/Users/xudachi/Documents/workspace/projects/front-end-perf-checklist/.cache/dev-404-page.js",
       "id": "SitePage /dev-404-page/",
       "parent": "SOURCE",
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "f9cbb196f1357abbb0bb68fd4a8d7ea4",
-        "description": "Plugin dev-404-page",
+        "contentDigest": "f91d29e10ba680b413138cf9ed86e655",
         "owner": "internal-data-bridge"
       }
     },
@@ -264,7 +254,7 @@
       "resolve": "/Users/xudachi/Documents/workspace/projects/front-end-perf-checklist",
       "id": "Plugin default-site-plugin",
       "name": "default-site-plugin",
-      "version": "1d187715f3e230904dfa64497d31f737",
+      "version": "e6d07119fe0dff34c0f9d855ee22cbfa",
       "pluginOptions": {
         "plugins": []
       },
@@ -298,6 +288,10 @@
         ],
         "devDependencies": [
           {
+            "name": "gh-pages",
+            "version": "^1.2.0"
+          },
+          {
             "name": "prettier",
             "version": "^1.6.1"
           }
@@ -309,7 +303,7 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "53018f4aaf6d63c08846f22c19d76fe9",
+        "contentDigest": "a2246acb9ed38293c2a097ec24db25d7",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -400,15 +394,14 @@
       "siteMetadata": {
         "title": "前端清单工具合集"
       },
-      "port": "8000",
-      "host": "localhost",
-      "pathPrefix": "/gatsby",
-      "buildTime": "2018-09-12T06:54:22.729Z",
+      "pathPrefix": "/Front-end-perf-checklist-doable",
+      "polyfill": true,
+      "buildTime": "2018-09-12T07:07:52.061Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "db65883b80f6a2d132496a7f3b9819ba",
+        "contentDigest": "85a50c3de59ae22011244f3dfc24a1b8",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -429,7 +422,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "27000a2bffe1b28bf157f5abf48b6dce",
+        "contentDigest": "8b3e9e88cd9c8de14223bc3a6b1890ba",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -450,7 +443,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "d422afae1e1a46682d389c40614b7f29",
+        "contentDigest": "4536eeeeebccdc4282409d6dd700ba28",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -471,7 +464,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "735e01bbef05c5be1ae6e8ace0969382",
+        "contentDigest": "a32fa95906b2ab95b0cf0930204c60bf",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -492,7 +485,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "1ff564f3572d0b37d4dea6006286a201",
+        "contentDigest": "ef63dfa465106a927fe89efde58bf3ed",
         "description": "Plugin prod-404",
         "owner": "internal-data-bridge"
       }
@@ -500,14 +493,10 @@
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "e066a67670821ce2d97a199267f20f09"
+    "PLUGINS_HASH": "ef54ea781e8d024bfaec69b9299f2c69"
   },
   "componentDataDependencies": {
     "nodes": {},
-    "connections": {
-      "SitePage": [
-        "/dev-404-page/"
-      ]
-    }
+    "connections": {}
   }
 }
