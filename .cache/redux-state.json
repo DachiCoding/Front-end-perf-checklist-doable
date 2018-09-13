@@ -1,13 +1,23 @@
 {
   "nodes": {
     "SitePage /dev-404-page/": {
+      "layout": "index",
+      "jsonName": "dev-404-page.json",
+      "internalComponentName": "ComponentDev404Page",
       "path": "/dev-404-page/",
+      "component": "/Users/xudachi/Documents/workspace/projects/front-end-perf-checklist/.cache/dev-404-page.js",
+      "componentChunkName": "component---cache-dev-404-page-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin dev-404-page",
+      "pluginCreatorId": "Plugin dev-404-page",
+      "componentPath": "/Users/xudachi/Documents/workspace/projects/front-end-perf-checklist/.cache/dev-404-page.js",
       "id": "SitePage /dev-404-page/",
       "parent": "SOURCE",
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "f91d29e10ba680b413138cf9ed86e655",
+        "contentDigest": "5de8528a84efeff99faf688ed1d24ceb",
+        "description": "Plugin dev-404-page",
         "owner": "internal-data-bridge"
       }
     },
@@ -250,11 +260,74 @@
         "owner": "internal-data-bridge"
       }
     },
+    "Plugin gatsby-plugin-antd": {
+      "resolve": "/Users/xudachi/Documents/workspace/projects/front-end-perf-checklist/node_modules/gatsby-plugin-antd",
+      "id": "Plugin gatsby-plugin-antd",
+      "name": "gatsby-plugin-antd",
+      "version": "1.0.14",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "modifyBabelrc"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/xudachi/Documents/workspace/projects/front-end-perf-checklist/node_modules/gatsby-plugin-antd",
+      "packageJson": {
+        "name": "gatsby-plugin-antd",
+        "description": "Gatsby plugin to use Ant Design",
+        "version": "1.0.14",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "ant design"
+        ],
+        "author": {
+          "name": "Brian Kimball"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "antd",
+            "version": "^3.8.4"
+          },
+          {
+            "name": "babel-plugin-import",
+            "version": "^1.8.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.24.1"
+          },
+          {
+            "name": "babel-preset-es2015",
+            "version": "^6.24.1"
+          },
+          {
+            "name": "babel-preset-stage-0",
+            "version": "^6.24.1"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "676809766b083fa0c7b8f76ceef3942a",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
     "Plugin default-site-plugin": {
       "resolve": "/Users/xudachi/Documents/workspace/projects/front-end-perf-checklist",
       "id": "Plugin default-site-plugin",
       "name": "default-site-plugin",
-      "version": "e6d07119fe0dff34c0f9d855ee22cbfa",
+      "version": "a89f74efddb9bed2e978f430087daa84",
       "pluginOptions": {
         "plugins": []
       },
@@ -282,6 +355,10 @@
             "version": "^1.6.15"
           },
           {
+            "name": "gatsby-plugin-antd",
+            "version": "^1.0.14"
+          },
+          {
             "name": "gatsby-plugin-react-helmet",
             "version": "^1.0.5"
           }
@@ -303,7 +380,7 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "a2246acb9ed38293c2a097ec24db25d7",
+        "contentDigest": "688f086d79340cd6c3c4345dac67e3d5",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -394,14 +471,16 @@
       "siteMetadata": {
         "title": "前端清单工具合集"
       },
+      "port": 8001,
+      "host": "localhost",
       "pathPrefix": "/Front-end-perf-checklist-doable",
       "polyfill": true,
-      "buildTime": "2018-09-12T07:07:52.061Z",
+      "buildTime": "2018-09-13T03:39:27.828Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "85a50c3de59ae22011244f3dfc24a1b8",
+        "contentDigest": "90b06af1fbf23c55fae4848f01113742",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -422,7 +501,28 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "8b3e9e88cd9c8de14223bc3a6b1890ba",
+        "contentDigest": "5e1eab34f8c18c259096583502cb326d",
+        "description": "Plugin gatsby-plugin-page-creator",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /about/": {
+      "layout": "index",
+      "jsonName": "about.json",
+      "internalComponentName": "ComponentAbout",
+      "path": "/about/",
+      "component": "/Users/xudachi/Documents/workspace/projects/front-end-perf-checklist/src/pages/about.js",
+      "componentChunkName": "component---src-pages-about-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
+      "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
+      "componentPath": "/Users/xudachi/Documents/workspace/projects/front-end-perf-checklist/src/pages/about.js",
+      "id": "SitePage /about/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "ef749f9004d201a9382422ebeaa63610",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -443,7 +543,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "4536eeeeebccdc4282409d6dd700ba28",
+        "contentDigest": "eaf09f64c278df5836f212541a24fbe1",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -464,7 +564,28 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "a32fa95906b2ab95b0cf0930204c60bf",
+        "contentDigest": "da808b149c2eec28c52702b2b6addcc8",
+        "description": "Plugin gatsby-plugin-page-creator",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /page-3/": {
+      "layout": "index",
+      "jsonName": "page-3.json",
+      "internalComponentName": "ComponentPage3",
+      "path": "/page-3/",
+      "component": "/Users/xudachi/Documents/workspace/projects/front-end-perf-checklist/src/pages/page-3.js",
+      "componentChunkName": "component---src-pages-page-3-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
+      "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
+      "componentPath": "/Users/xudachi/Documents/workspace/projects/front-end-perf-checklist/src/pages/page-3.js",
+      "id": "SitePage /page-3/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "9583f4b839b68ffba52e4ae0e98c2a73",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -485,7 +606,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "ef63dfa465106a927fe89efde58bf3ed",
+        "contentDigest": "82b8dad81f8bd0cc223467fa2ba679fd",
         "description": "Plugin prod-404",
         "owner": "internal-data-bridge"
       }
@@ -493,10 +614,14 @@
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "ef54ea781e8d024bfaec69b9299f2c69"
+    "PLUGINS_HASH": "181de52333ad558423d71b064dea68c2"
   },
   "componentDataDependencies": {
     "nodes": {},
-    "connections": {}
+    "connections": {
+      "SitePage": [
+        "/dev-404-page/"
+      ]
+    }
   }
 }

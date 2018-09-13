@@ -1,10 +1,24 @@
 [
     {
+        "componentChunkName": "component---cache-dev-404-page-js",
+        "layout": "layout---index",
+        "layoutComponentChunkName": "component---src-layouts-index-js",
+        "jsonName": "dev-404-page.json",
+        "path": "/dev-404-page/"
+    },
+    {
         "componentChunkName": "component---src-pages-404-js",
         "layout": "layout---index",
         "layoutComponentChunkName": "component---src-layouts-index-js",
         "jsonName": "404.json",
         "path": "/404/"
+    },
+    {
+        "componentChunkName": "component---src-pages-about-js",
+        "layout": "layout---index",
+        "layoutComponentChunkName": "component---src-layouts-index-js",
+        "jsonName": "about.json",
+        "path": "/about/"
     },
     {
         "componentChunkName": "component---src-pages-index-js",
@@ -19,6 +33,13 @@
         "layoutComponentChunkName": "component---src-layouts-index-js",
         "jsonName": "page-2.json",
         "path": "/page-2/"
+    },
+    {
+        "componentChunkName": "component---src-pages-page-3-js",
+        "layout": "layout---index",
+        "layoutComponentChunkName": "component---src-layouts-index-js",
+        "jsonName": "page-3.json",
+        "path": "/page-3/"
     },
     {
         "componentChunkName": "component---src-pages-404-js",

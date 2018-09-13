@@ -3,5 +3,8 @@ module.exports = {
   siteMetadata: {
     title: `前端清单工具合集`,
   },
-  plugins: [`gatsby-plugin-react-helmet`],
+  plugins: [
+    `gatsby-plugin-react-helmet`,
+    `gatsby-plugin-antd`,
+  ],
 }
