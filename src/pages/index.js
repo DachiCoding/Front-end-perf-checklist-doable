@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import Link from 'gatsby-link'
-import { Button, Steps } from 'antd';
+import { Button, Steps, Card, Checkbox, Row, Col } from 'antd';
 const Step = Steps.Step;
 import "./index.css";
 
@@ -42,6 +42,32 @@ class IndexPage extends Component {
   }
 
   _renderCheckList = () => {
+    return (
+      <div style={{marginTop:10}}>
+        <Row>
+          <Col span={5}>
+            <Card title="最小化HTML" style={{ width: 300 }}>
+              <Checkbox>使用Webpack HTML插件</Checkbox>
+            </Card>
+          </Col>
+          <Col span={5}>
+            <Card title="最小化HTML" style={{ width: 300 }}>
+              <Checkbox>使用Webpack HTML插件</Checkbox>
+            </Card>
+          </Col>
+          <Col span={5}>
+            <Card title="最小化HTML" style={{ width: 300 }}>
+              <Checkbox>使用Webpack HTML插件</Checkbox>
+            </Card>
+          </Col>
+          <Col span={5}>
+            <Card title="最小化HTML" style={{ width: 300 }}>
+              <Checkbox>使用Webpack HTML插件</Checkbox>
+            </Card>
+          </Col>
+        </Row>
+      </div>
+    );
   }
 
   render () {
