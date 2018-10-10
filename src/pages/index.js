@@ -59,15 +59,15 @@ const DATA_SOURCE = {
       example: <div>
         <p>优化前</p>
         <pre>
-          <p style={{marginBottom:0}}>{'<script src="jquery.js"></script>'}</p>
-          <p style={{marginBottom:0}}>{'<script src="foo.js"></script>'}</p>
+          <p style={{marginBottom:0, color:'red'}}>{'<script src="jquery.js"></script>'}</p>
+          <p style={{marginBottom:0, color:'red'}}>{'<script src="foo.js"></script>'}</p>
           <p style={{marginBottom:0}}>{'<link rel="stylesheet" href="foo.css"/>'}</p>
         </pre>
         <p>优化后</p>
         <pre>
           <p style={{marginBottom:0}}>{'<link rel="stylesheet" href="foo.css"/>'}</p>
-          <p style={{marginBottom:0}}>{'<script src="jquery.js"></script>'}</p>
-          <p style={{marginBottom:0}}>{'<script src="foo.js"></script>'}</p>
+          <p style={{marginBottom:0, color:'green'}}>{'<script src="jquery.js"></script>'}</p>
+          <p style={{marginBottom:0, color:'green'}}>{'<script src="foo.js"></script>'}</p>
         </pre>
       </div>
     },
