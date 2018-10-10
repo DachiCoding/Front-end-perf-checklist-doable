@@ -1,14 +1,29 @@
 html,
-bdoy,
+body,
 * {
     margin: 0;
     padding: 0;
 }
 
 body {
-    font-size: 16px;
+    font-size: 14px;
     font-family: "Helvetica Neue", Helvetica, Arial, "PingFang SC", "Hiragino";
 }
 
 .container {
+}
+
+.operation-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+.operation-button {
+    margin-left: 10px;
+}
+
+.checklist-table {
+    font-size: 14px;
 }
